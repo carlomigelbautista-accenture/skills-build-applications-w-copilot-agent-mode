@@ -1,0 +1,101 @@
+
+.App {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+h2, h1, h3 {
+  color: #3a86ff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  background: #e0e7ff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+li {
+  color: #22223b;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+th {
+  background: #3a86ff;
+  color: #fff;
+}
+td {
+  color: #22223b;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  transition: background 0.2s;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+}
+
+a {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #fb5607;
+}
+
+.container {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
