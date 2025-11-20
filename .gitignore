@@ -1,33 +1,57 @@
-.DS_Store
+# Python
+*.py[cod]
+__pycache__/
+.pytest_cache/
+*.pyo
+*.pyd
+*.sqlite3
+*.egg-info/
+.eggs/
+*.egg
+.env
+.env.*
+.env.local
 
-# Virtual Environment
-venv
+# Virtual environments
+venv/
+.VENV/
+.venv/
+/octofit-tracker/backend/venv/
 
-# octofit tracker app
-# octfit-tracker
-
-# React node_modules
-node_modules
+# Node
+node_modules/
+/octofit-tracker/frontend/node_modules/
 /.pnp
 .pnp.js
 
-# testing
-/coverage
+# Build / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.whl
 
-# production
-/build
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
 
-# misc
+# OS files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+Thumbs.db
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Python files
-*.pyc
-__pycache__/
+# Coverage
+.coverage
+htmlcov/
+coverage/
+
+# Misc
+*.log
+*.bak
+*.tmp
